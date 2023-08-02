@@ -1,4 +1,4 @@
-include ':ekyc_sdk-release-v3.0.7'
+include ':ekyc_sdk-release-v3.2.4'
 include ':app'
 
 def localPropertiesFile = new File(rootProject.projectDir, "local.properties")
