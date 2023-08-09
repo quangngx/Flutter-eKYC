@@ -1,0 +1,2 @@
+rootProject.name = 'vnpt_sdk_ekyc'
+include ':ekyc_sdk-release-v3.2.4'

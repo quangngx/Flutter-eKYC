@@ -52,9 +52,9 @@ class MainActivity: FlutterActivity() {
         }
         val intent = Intent(getActivity(), VnptIdentityActivity::class.java)
         if (intent != null) {
-            intent.putExtra(ACCESS_TOKEN, "<input access >")
-            intent.putExtra(TOKEN_ID, "<input token id>")
-            intent.putExtra(TOKEN_KEY, "<input token key>")
+            intent.putExtra(ACCESS_TOKEN, "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMWQ0Zjg1OC05MjQ2LTNiOTEtZTA2My02MjE5OWYwYTg4NjYiLCJhdWQiOlsicmVzdHNlcnZpY2UiXSwidXNlcl9uYW1lIjoidGVjaC5xdWFuZ25uQGFuZWVkLnZuIiwic2NvcGUiOlsicmVhZCJdLCJpc3MiOiJodHRwczovL2xvY2FsaG9zdCIsIm5hbWUiOiJ0ZWNoLnF1YW5nbm5AYW5lZWQudm4iLCJ1dWlkX2FjY291bnQiOiIwMWQ0Zjg1OC05MjQ2LTNiOTEtZTA2My02MjE5OWYwYTg4NjYiLCJhdXRob3JpdGllcyI6WyJVU0VSIl0sImp0aSI6IjU3MWU2M2ExLTRkNGUtNDZlNy1iMzBlLTY4NzNkOWNmYjgzYyIsImNsaWVudF9pZCI6ImFkbWluYXBwIn0.5xNTKzc3rpPGs2xFaXFfElKmQRykYTXtahlkblYQfffZybZ1kTvz-CJigIW7WT6z7tXJ1_s9Ndzgpmq1KnRkNgIOuEMnqre7BvH595IRl2ZnMKX6dXK1KdnpjSdRv_2usW2sN4pwMyhBMwExzcLMOecrZPImFpmsyelEEAlhaLffGMJR58ONDDA26__3FRXVI20UweIAPKQSf5R0PahNXmNkaEm5wCwn8MyWb2vLfTBrqQjmcZRR3RNiekU5VDzHCCQ2pvIEjg44OVaZ67we-mi-c0OvU8GmDMonYegCxOljh5ygFUO-tZyyH_9y0z_aU371ExCEjWqLpnAGQ9V1AA")
+            intent.putExtra(TOKEN_ID, "01d58710-720a-2e81-e063-62199f0a9d5f")
+            intent.putExtra(TOKEN_KEY, "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKPPS8sTctKjf6XMKXqAbSARctU0eQu5pP5LoUVFC32jfULFKvR9/o4coa2RZ1vldfhcXO/CGucI9p25K9FwlRsCAwEAAQ==")
             intent.putExtra(DOCUMENT_TYPE, SDKEnum.DocumentTypeEnum.IDENTITY_CARD.getValue())
             intent.putExtra(SELECT_DOCUMENT, true)
             intent.putExtra(VERSION_SDK, SDKEnum.VersionSDKEnum.ADVANCED.getValue())
